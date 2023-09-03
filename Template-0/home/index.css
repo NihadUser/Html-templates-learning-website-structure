@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+.component {
+    font-size: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: 700px;
+    border: 2px solid black; 
+    display: flex;
+    /* horizontal merkez */
+    justify-content: center;
+    /* vertikal merkez */
+    align-items: center;
+   }
+.first {
+    background-color: aqua;
+}
+.second {
+    background-color: brown;
+}
+.third {
+    background-color: red;
+}
+.forth {
+    background-color: greenyellow;
+}
+.fifth {
+    background-color: pink;
+}
+.headercontainer {
+    height: 100px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ekranin usdune yapismag */
+    position: sticky;
+    top: 10px;
+}
+.header {
+    width: 400px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header a {
+    text-decoration: none;  
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+    

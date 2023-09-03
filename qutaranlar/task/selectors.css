@@ -1,0 +1,101 @@
+/**[lang^="en"]{
+    color: green;
+}
+*.warning{
+    color: red;
+}
+*#maincontent{
+    border: 1px solid blue;
+}*/
+.register{
+    height: 50px;
+    width: 70px;
+    color: aqua;
+    background-color: black;
+    border-radius: 50px;
+}
+.register:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+
+}
+.class{
+    height: 40px;
+    width: 70px;
+    background-color: black;
+}
+.class:hover{
+    height: 70px;
+    width: 100px;
+    background-color: red;
+}
+.id{
+    height: 70px;
+    width: 150px;
+    background-color: black;
+}
+.id:hover{
+    height: 190px;
+    width: 200px;
+    background-color: blue;
+}
+.first{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+
+.bir{
+    height: 25px;
+    width: 200px;
+    background-color: black;
+}
+
+.first:hover{
+    background-color: red;
+    
+}
+.ss{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+.sss{
+    height: 50px;
+    width: 50%;
+    background-color: black;
+}
+.ss:hover{
+    background-color: aqua;
+    transition: 3s;
+}
+.google{
+    display: inline;
+    background-color: black;
+    color: red;
+}
+.google:hover{
+    background-color: yellow;
+    color: black;
+}
+.fox{
+    display: inline;
+    background-color: blue;
+    color: bisque;
+}
+.fox:hover{
+    font-size: 300%;
+    background-color: aqua;
+}
+.div{
+    width: 30%;
+    height: 70px;
+    background-color: black;
+}
+.vid{
+    width: 100%;
+    height: 60px;
+}

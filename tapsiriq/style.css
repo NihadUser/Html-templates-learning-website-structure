@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 700vh;
+    background-color: rgba(179, 179, 179, 0.396);
+    display: flex;
+}
+.card-1{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    border: 1px solid black;
+}
+.card-1 img{
+    transition: .5s;
+}
+.card-1 img:hover{
+    opacity: 0.6;
+}
+.card-1 h1{
+    margin-top: 10px;
+    font-size: 1.9em;
+    margin-left: 50px;
+    transition: .5s;
+}
+.card-1 h1:hover{
+    color: rgb(226, 43, 61);
+}
+.card-1 span{
+    color: gray;
+    margin-left: 50px;
+    display: block;
+    margin-top: 10px;
+    font-size: .9em;
+    cursor: pointer;
+}
+.card-1 p{
+    color: gray;
+    padding: 50px;
+}
+.read{
+    width: 7%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #DA4453;
+    margin-top: -40px;
+    position: absolute;
+    margin-left: 550px;
+    transition: .5s;
+}
+.read:hover{
+    background-color: black;
+
+}
+.card-container-1{
+    width: 50%;
+    height: 100vh;
+    margin-left: calc(20% - 8%);
+}
+.container-2{
+    width: 25%;
+    height: 300vh;
+    background: #fff;
+    margin-left: 5%;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding: 20px;
+}
+.container-2 h4{
+    color: gray;
+}
+.bir{
+    width: 13%;
+    height: 40px;
+    background-color: rgba(179, 179, 179, 0.396);
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.icon-1{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bir i{
+    color: white;
+    font-size: 25px;
+    
+}
+.bir:hover{
+    background-color: lightblue;
+}
+.popular{
+    color: gray;
+    margin-top: 100px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.img-container-2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    background-image: url(img/city-landscape-slider-750x410.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 70px;
+    border-radius: 7px;
+    transition: .5s;
+}
+.img-1{
+    background-image: url(img/slider-wallpaper-colorlib-750x410.png);
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 70px;
+    border-radius: 7px;
+    transition: .5s;
+}
+.img-1:hover{
+    opacity: 0.5;
+}
+.img:hover{
+    opacity: 0.5;
+}
+.text{
+    width: 70%;
+    height: 70px;
+}
+.text p{
+    color: #DA4453;
+    line-height: 20px;
+}
+.text span{
+    color: gray;
+    font-size: .8em;
+}
+.post{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+
+}
+.post span{
+    color: rgba(167, 167, 167, 0.464);
+    font-size: .9em;
+    cursor: pointer;
+    transition: .5s;
+}
+.post span:hover{
+    color: #DA4453;
+}
+.menu{
+    background-color: #6B6B6B;
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+}
+.ul-has ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: end;
+}
+.ul-has ul li{
+    list-style: none;
+}
+.ul-has ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ul-has ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+.button{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    transition: .4s;
+}
+.dropdown ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: end;
+    background-color: white;
+}
+.dropdown ul li{
+    list-style: none;
+    padding: 10px;
+}
+.dropdown ul li a{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+.dropdown ul li:hover{
+    background-color: red;
+}
+.dropdown ul{
+    display: none;
+}
+.dropdown:hover ul{
+    display: block;
+}
+.const{
+    position: sticky;
+    top: 1px;
+}
+.input{
+    width: 70%;
+    height: 30px;
+    font-size: .8em;
+    color: gray;
+}
+.coon{
+    width: 100%;
+    height: 50px;
+    margin-top: 500px;
+    display: flex;
+}
+.ii{
+    width: 30px;
+    height: 30px;
+    background-color: #DA4453;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.comment{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    /* padding: 20px; */
+    margin-top: 5px;
+    padding: 5px;
+}
+.comment i{
+    color: gray;
+    font-size: .9em;
+}
+.comment span{
+    color: gray;
+    font-size: .9em;
+}

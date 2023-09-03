@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+.div{
+    background-color: rgb(64, 60, 60);
+    height: 45px;
+    width: 100%;
+}
+.p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.chatgpt{
+    height: 200px;
+    width: 100%;
+   
+    
+}
+.h1{
+   text-align: center;
+    padding-top: 100px;
+}
+.examples{
+    width: 100%;
+    height: 45px;
+}
+.pp{
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+}
+.vid{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    width: 50%;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.iki{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    width: 50%;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+}
+.uc{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    width: 50%;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+}
+.eng{
+    padding-top: 15px;
+}
+.class{
+    width: 100%;
+    height: 45px;
+}
+.input{
+
+    background-color: rgb(243, 243, 243);
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+}
+.tuf{
+    height: 60px;
+    width: 100%;
+    
+    text-align: center;
+}

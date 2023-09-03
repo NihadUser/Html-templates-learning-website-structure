@@ -1,0 +1,109 @@
+body {
+  width: 98%;
+  height: 280vh;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.id {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.about {
+  width: 40%;
+  height: 100px;
+
+  margin-top: 25px;
+}
+.a {
+  text-decoration: none;
+  font-size: 200%;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+a:hover {
+  color: burlywood;
+}
+.iddi {
+  width: 60%;
+  height: 100px;
+  margin-top: 25px;
+}
+.countainer {
+  height: 280vh;
+  width: 100%;
+  display: flex;
+}
+.count1 {
+  height: 300vh;
+  width: 50%;
+}
+.count2 {
+  height: 300vh;
+  width: 50%;
+}
+.port {
+  width: 100%;
+  height: 90px;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.first {
+  width: 600px;
+  height: 400px;
+  margin-left: 50px;
+}
+.second {
+  width: 600px;
+  height: 730px;
+  margin-left: 100px;
+}
+.fourth {
+  margin-left: 50px;
+  height: 800px;
+  width: 600px;
+  margin-top: 20px;
+}
+.third {
+  width: 600px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.sss {
+  margin-left: 50px;
+  width: 700px;
+  margin-top: 20px;
+}
+.fifth {
+  width: 600px;
+  height: 600px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+img {
+  transition: 2s;
+}
+img:hover {
+  opacity: 0.5;
+}
+.next {
+  width: 250px;
+  height: 50px;
+  margin-left: 1200px;
+  margin-bottom: 100px;
+}
+.project {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}

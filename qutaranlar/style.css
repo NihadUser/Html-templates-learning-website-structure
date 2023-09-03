@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cointainer{
+    width: 100%;
+    height: 100vh;
+     background-color: chartreuse;
+}
+.image{
+    background-image: url(/download.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    padding-top:20px ;
+}
+.first{
+    width: 70%;
+    height: 20px;
+    background-color: aquamarine;
+    margin-left: calc(50% - 35%);
+    
+}
+.second{
+    width: 50%;
+    height: 20px;
+    background-color: brown;
+    margin-top: 5px;
+    margin-left:calc(50% - 25%);
+}
+.thrid{
+    background-color: bisque;
+    margin-left: calc(50% - 15%);
+    width: 30%;
+    height: 20px;
+    margin-top: 5px;
+}
+.fourth{
+    background-color: crimson;
+    margin-left: calc(50% - 5%);
+    width: 10%;
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+}

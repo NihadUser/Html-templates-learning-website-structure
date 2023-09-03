@@ -1,0 +1,128 @@
+@media screen and (max-width: 1441px) {
+  .main-1 .main-1-inner p {
+    font-size: 20px;
+  }
+  .main-1-inner button {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header ul {
+    margin-left: 100px;
+  }
+  .main-1-inner {
+    width: 60%;
+  }
+  .three-cards {
+    width: 90%;
+    margin-left: calc(50% - 45%);
+  }
+  .card {
+    height: 630px;
+  }
+  .kardlar {
+    width: 20%;
+  }
+  .sekil img {
+    width: 90%;
+    padding-top: 100px;
+  }
+  .yazilar {
+    margin-left: 0;
+    width: 40%;
+  }
+  .main-7-Inner {
+    width: 50%;
+    & h1 {
+      font-size: 25px;
+    }
+    .space-1 {
+      margin-top: 40px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    & ul {
+      display: none;
+    }
+    & .buttons {
+      display: none;
+    }
+  }
+  .tog-btn {
+    visibility: visible;
+  }
+  .main-1-inner {
+    width: 60%;
+  }
+  .three-cards {
+    width: 90%;
+    margin-left: calc(50% - 45%);
+  }
+  .main-1 {
+    padding: 100px 0 0 100px;
+  }
+  .main-1-inner {
+    & h1 {
+      font-size: 40px;
+    }
+    & p {
+      margin-top: 40px;
+      font-size: 15px !important;
+    }
+  }
+  .cards {
+    width: 47%;
+  }
+  .card {
+    width: 48%;
+  }
+  .none {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    & ul {
+      display: none;
+    }
+    & .buttons {
+      display: none;
+    }
+  }
+  .tog-btn {
+    visibility: visible;
+  }
+  .main-1-inner {
+    width: 60%;
+  }
+  .three-cards {
+    width: 90%;
+    margin-left: calc(50% - 45%);
+  }
+  .main-1 {
+    padding: 50px 0 0 10px;
+    height: 65vh;
+  }
+  .main-1-inner {
+    & h1 {
+      font-size: 27px;
+      padding-right: 100px;
+    }
+    & p {
+      margin-top: 20px;
+      font-size: 15px !important;
+    }
+    .log-1 {
+      margin-top: 30px;
+    }
+    width: 100%;
+  }
+  .cards {
+    width: 98%;
+  }
+  .card {
+    width: 98%;
+  }
+}
